@@ -1,0 +1,8 @@
+# exynos5420: gralloc: Only use GRALLOC_USAGE_* defines if they exist
+repopick 106391
+
+# exynos5420: Add S3C_FB_WIN_STATE_OTF to struct s3c_fb_win_config
+repopick 106134
+
+# Repopick with all of the changes
+repopick 106391 106134

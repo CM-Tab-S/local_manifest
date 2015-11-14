@@ -1,5 +1,9 @@
 # exynos5420: gralloc: Only use GRALLOC_USAGE_* defines if they exist
 repopick 106391
 
+
+stagefright: Update makefile for Exynos variants
+repopick 116624
+
 # Repopick with all of the changes
-repopick 106391
+repopick 106391 116624

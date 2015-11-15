@@ -1,9 +1,18 @@
+http://review.cyanogenmod.org/#/c/106391/
 # exynos5420: gralloc: Only use GRALLOC_USAGE_* defines if they exist
 repopick 106391
 
+http://review.cyanogenmod.org/#/c/116625/1
+stagefright: Add support for Exynos hardware audio decoding
+repopick 116625
 
+http://review.cyanogenmod.org/#/c/116624/1
 stagefright: Update makefile for Exynos variants
 repopick 116624
 
+http://review.cyanogenmod.org/#/c/116626/1
+stagefright: Add libhwc to exynos include paths
+repopick 116626
+
 # Repopick with all of the changes
-repopick 106391 116624
+repopick 106391 116625 116624

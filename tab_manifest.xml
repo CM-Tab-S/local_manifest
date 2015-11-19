@@ -1,4 +1,5 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 <!-- Exynos 5420 PROJECTS -->
 <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
 <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
@@ -11,3 +12,4 @@
 <project name="CM-Tab-S/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
 <project name="CM-Tab-S/android_device_samsung_klimtwifi" path="device/samsung/klimtwifi" remote="github" />
 <project name="CM-Tab-S/android_kernel_samsung_klimtwifi" path="kernel/samsung/klimtwifi" remote="github" />
+</manifest>
